@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Portfolio de Kenny Herillard - Page d'accueil</title>
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <nav class="tmp-menu" data-state="closed">
+
+        <a href="index.html" class="home-link">Kenny Herillard</a>
+
+        <div class="site-links">
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a href="index.html" class="active">Accueil</a>
+            <a href="">Présentation</a>
+            <a href="competences.html">Compétences</a>
+            <a href="">Projets</a>
+            <a href="">CV</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+    </nav>
+
+    <main class="tmp-main home">
+
+        <header>
+
+            <div class="image">
+                <img src="images/index/avatar.png" alt="Avatar de Kenny Herillard" class="img-responsive">
+
+            </div>
+            
+            <div class="text">
+                <h1 class="tmp-title1">Kenny Herillard</h1>
+                <p>
+                    20 ans <span class="picto-location"></span> Paris, Île de France<br>
+                    Étudiant en 2ème année à L’École Multimédia<br>
+                    Développeur front et back-end <br>
+                    Recherche un poste en alternance dès septembre 2019
+                </p>
+                <div class="buttons">
+                    <a href="" class="tmp-btn">Télécharger mon CV</a>
+                    <br>
+                    <a href="" class="tmp-btn">Me contacter</a>
+                </div>
+            </div>
+
+        </header>
+
+        <nav class="headings">
+
+            <a href="">
+                <img src="images/index/presentation.svg" alt="Pictogramme représentant une carte d'identité">
+                <h2>Présentation</h2>
+                <p>Mes renseignements personnels, mon parcours scolaire, mes passions et mes hobbies</p>
+            </a>
+            <a href="competences.html">
+                <img src="images/index/skills.svg" alt="Pictogramme représentant une carte d'identité">
+                <h2>Compétences</h2>
+                <p>La liste de mes compétences notamment en programation et en développement</p>
+            </a>
+            <a href="projet.html">
+                <img src="images/index/projects.svg" alt="Pictogramme représentant une carte d'identité">
+                <h2>Projets</h2>
+                <p>Les projets réalisés à l’école et en stage ainsi que mes réalisations personnelles</p>
+            </a>
+
+        </nav>
+
+        <section class="last-projects">
+
+            <h2 class="tmp-title2">Mes derniers projets</h2>
+
+            <p>Voici mes trois derniers projets effectués à l'école. Si vous voulez parcourir tous mes projets, n'hésitez pas à cliquer sur le bouton ci dessous :</p>
+
+            <div class="projects">
+                
+                <a href="projet.html" class="project">
+                    <img src="images/projets/xtrem-kappla.jpg" alt="Photo du projet Xtrem Kappla" class="img-responsive">
+                    <div class="text">
+                        <h3>Xtrem Kappla</h3>
+                        <span>18/03/2019 - 22/03/2019</span>
+                        <p>Projet réalisé en JS avec le framework phaser. Le jeu est un towerblock 2 joueurs en écran scindé, où l'on contrôle les déplacements à l'aide d'un Leap Motion, qui est un capteur infrarouge permettant d'utiliser nos mains à la place d'une souris/pad ou d'une manette.</p>
+                    </div>
+                </a>
+
+                <a href="projet.html" class="project">
+                    <img src="images/projets/webgl.png" alt="Photo du projet Space Parkour" class="img-responsive">
+                    <div class="text">
+                        <h3>Space Parkour</h3>
+                        <span>04/02/2019 - 08/02/2019</span>
+                        <p>Projet réalisé en JS à l'aide du moteur WebGL. Un vaisseau modélisé dans Cinéma 4D doit éviter des astéroids et toutes sortes d'objet, dans un jeu 2D défilant de droite à gauche.</p>
+                    </div>
+                </a>
+                
+                <a href="projet.html" class="project">
+                    <img src="images/projets/projet3.jpg" alt="Photo du projet Weather Package" class="img-responsive">
+                    <div class="text">
+                        <h3>Weather Package</h3>
+                        <span>06/12/2018 - 11/12/2018</span>
+                        <p>Package npm réalisé en JS, permet de savoir la météo à une localisation précise, sur une semaine, ou moins suivant les options voulues</p>
+                    </div>
+                </a>
+            </div>
+
+            <a href="" class="tmp-btn">Voir tous mes projets</a>
+
+        </section>
+
+    </main>
+
+    <footer class="tmp-footer">
+
+        <section class="contact">
+            <h1>Kenny Herillard</h1>
+            <a href="mailto:kenny.herillard@hotmail.fr">kenny.herillard@hotmail.fr</a><br>
+            <a href="tel:+33616246778">06 16 24 67 78</a><br>
+            <a href="https://www.linkedin.com/in/kenny-herillard-071476174/">Suivez-moi sur <strong>Linkedin</strong></a><br>
+            <a href="https://github.com/Drallireeh">Suivez-moi sur <strong>Github</strong></a>
+        </section>
+
+        <nav class="menu">
+            <h2>Menu</h2>
+            <div class="links">
+                <a href="index.html">Accueil</a><br>
+                <a href="">Présentation</a><br>
+                <a href="competences.html">Compétences</a><br>
+                <a href="">Projets</a><br>
+                <a href="">CV</a><br>
+                <a href="contact.html">Contact</a><br>
+                <a href="">Mentions légales</a>
+            </div>
+        </nav>
+
+    </footer>
+    
+    <!-- Script de la bascule du menu -->
+    <script src="scripts/menu.js"></script>
+
+</body>
+</html>
