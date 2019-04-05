@@ -6,20 +6,37 @@
 
 header{
     padding-top: 2.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 header .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
 }
 
 header .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     padding-bottom:1.5rem;
     overflow: auto;
 }
@@ -46,8 +63,13 @@ header .text .tmp-btn:first-child {
 
 @media screen and (max-width:840px) {
     header{
-        flex-direction: column-reverse;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         padding-top: 1rem;
     }
 
@@ -100,6 +122,8 @@ header .text .tmp-btn:first-child {
 
 .headings {
     background-color: #01D758;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0 -2rem;
 }
@@ -109,7 +133,10 @@ header .text .tmp-btn:first-child {
     text-decoration: none;
     text-align: center;
     padding: 4.15rem 2rem 4.5rem;
-    flex:1;
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+    -webkit-transition: background-color 400ms;
     transition: background-color 400ms;
 }
 
@@ -126,7 +153,10 @@ header .text .tmp-btn:first-child {
 
 @media screen and (max-width:840px) {
     .headings {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .headings a {
@@ -191,24 +221,33 @@ header .text .tmp-btn:first-child {
 }
 
 .last-projects .projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-bottom: 2.25rem;
 }
 
 .last-projects .project{
-    flex:1;
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
     max-width: 360px;
     background-color: white;
     text-align: left;
     text-decoration: none;
     margin-bottom: 1rem;
+    -webkit-transition: background-color 400ms;
     transition: background-color 400ms;
 }
 
 .last-projects .project:hover{
-    box-shadow: 0 0 .95rem rgba(23,23,23,.1);
+    -webkit-box-shadow: 0 0 .95rem rgba(23,23,23,.1);
+            box-shadow: 0 0 .95rem rgba(23,23,23,.1);
 }
 
 .last-projects .text {
@@ -240,8 +279,13 @@ header .text .tmp-btn:first-child {
 @media screen and (max-width:840px) {
     
     .last-projects .projects {
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
 
     }
     .last-projects .project {
