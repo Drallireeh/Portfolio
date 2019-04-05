@@ -48,7 +48,6 @@ table {
 	border-spacing: 0;
 }
 
-
 /*************/
 /*** FONTS ***/
 /*************/
@@ -59,7 +58,6 @@ table {
          url('../fonts/montserrat-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -68,7 +66,6 @@ table {
          url('../fonts/montserrat-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-
 }
 
 @font-face {
@@ -77,7 +74,6 @@ table {
          url('../fonts/nunitosans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -86,20 +82,11 @@ table {
          url('../fonts/nunitosans-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-
 }
 
 /***********************/
 /*** TEMPLATE STYLES ***/
 /***********************/
-
-/*
-Noir : #171717 / R23 V23 B23
-Gris clair : #f5f5f5
-Gris : #787878 / R120 V120 B120
-Vert d'eau : #01D758
-Vert d'eau clair : #87e990
-*/
 
 html, body{
     font-size: 100%;
@@ -278,7 +265,6 @@ strong {
 
 
 @media screen and (max-width:840px) {
-
     .tmp-menu{
         padding-top: 1.7rem;
         padding-bottom: 1.7rem;
@@ -311,7 +297,6 @@ strong {
     .tmp-menu[data-state=opened] .burger {
         margin-bottom: 20px;
     }
-
 }
 
 /* Page main */
@@ -394,11 +379,13 @@ strong {
 .tmp-footer strong {
     color: inherit;
 }
+
 @media screen and (max-width:500px) {
     .tmp-footer .contact {
         margin-bottom: 2rem;
     }
 }
+
 @media screen and (min-width:501px) {
     .tmp-footer {
         display: flex;
@@ -485,6 +472,7 @@ strong {
         padding-top: 2rem;
     }
 }
+
 @media screen and (min-width:841px) {
     .tmp-main:not(.home) {
        display: flex;
