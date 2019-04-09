@@ -2,12 +2,14 @@
 <html lang="fr">
 
 <head>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="icon" href="images/favicon.ico">
-    <title>Portfolio de John Doe - Erreur</title>
+    <title>Portfolio de Kenny Herillard - Titre du projet</title>
     <link rel="stylesheet" href="css/template.css">
     <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="glide/glide.core.min.css">
+    <link rel="stylesheet" href="glide/glide.theme.min.css">
 </head>
 
 <body>
@@ -23,7 +25,7 @@
                 <span></span>
             </div>
             <a href="index.html">Accueil</a>
-            <a href="presentation.html">Présentation</a>
+            <a href="presentation.html" class="active">Présentation</a>
             <a href="competences.html">Compétences</a>
             <a href="">Projets</a>
             <a target="_blank" href="pdf/CV_HERILLARD_Kenny_Alternance.pdf">CV</a>
@@ -34,16 +36,46 @@
 
     <main class="tmp-main">
 
-        <section class="404-content tmp-content">
+        <section class="presentation-content tmp-content">
 
             <header>
 
-                <h1 class="tmp-title1">Erreur 404</h1>
-                <p>This is Photoshop's version of Lorem Ipsum. Proin <strong>gravida</strong> nibh vel <strong>velit
-                        auctor</strong> aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                    ipsum, nec sagittis sem nibh id elit.</p>
+                <h1 class="tmp-title1">Kenny Herillard</h1>
+                <p>Développeur Front-End</p>
 
             </header>
+
+            <div class="image">
+                <img src="images/template/moi.JPG" alt="photo de Kenny Herillard">
+            </div>
+
+            <h2 class="tmp-title2">Ce que je recherche : </h2>
+
+            <p>Actuellement en 2ème année de développement Web à l’École Multimédia de Paris située au 201 rue
+                Saint-Martin, je suis à la recherche d'un poste en alternance d'une durée d'un an à compter de septembre
+                2019 en contrat de professionnalisation. <br>
+                Le rythme d'alternance est de 3 semaines en entreprise, et 1 semaine à l'école.</p>
+
+            <h2 class="tmp-title2">Formations : </h2>
+
+            <p>2018 - 2019 : 2ème année de développement Web à l’École Multimédia de Paris</p>
+
+            <p>2017 - 2018 : Prépa Digitale à l’École Multimédia de Paris</p>
+
+            <p>2015 - 2017 : Game programming à ISART Digital à Paris</p>
+
+            <p>2014 - 2015 : Terminale STI2D avec obtention du bac STI2D mention bien au lycée Touchard-Washington, Le
+                Mans (72)</p>
+
+            <h2 class="tmp-title2">Experiences professionnelles :</h2>
+
+            <p>Juillet - septembre 2018 : Serveur à Del Arte</p>
+
+            <p>2018 - 2019 : Missions d'interim</p>
+
+            <h2 class="tmp-title2">Mes hobbies :</h2>
+
+            <p>Je suis avant tout fan de sports, nottament les sports mécaniques, le football et le tennis. <br> Je suis également passioné de lecture, plutôt axée fantasy. <br>Je suis également très axé sur tout ce qui touche aux jeux vidéos, peut importe le type et l'ancienneté du jeu (d'ou certains choix de cursus). <br> Pour finir, j'adore les animaux, du chien au chat en passant par les reptiles, que je trouve fascinants. J'adore aussi voyager pour découvrir de nouveaux lieux et de nouvelles cultures, pour étayer ma soif de connaissances.</p>
 
         </section>
 
@@ -59,7 +91,8 @@
                     Développeur front et back-end<br>
                     Recherche un poste en alternance
                 </p>
-                <a target="_blank" href="pdf/CV_HERILLARD_Kenny_Alternance.pdf" class="tmp-btn-small">Télécharger mon CV</a>
+                <a target="_blank" href="pdf/CV_HERILLARD_Kenny_Alternance.pdf" class="tmp-btn-small">Télécharger mon
+                    CV</a>
                 <br>
                 <a href="" class="tmp-btn-small">Me contacter</a>
 
@@ -86,9 +119,7 @@
                 <a href="">En savoir plus</a>
 
             </section>
-
         </aside>
-
     </main>
 
     <footer class="tmp-footer">
@@ -119,6 +150,17 @@
 
     <!-- Script de la bascule du menu -->
     <script src="scripts/menu.js"></script>
+    <!-- Script Glide JS-->
+    <script src="glide/glide.min.js"></script>
+    <!-- Intialisation Glide JS-->
+    <script>
+        new Glide('.glide', {
+            type: 'carousel',
+            perView: 1,
+            autoplay: 1000,
+
+        }).mount();
+    </script>
 
 </body>
 
