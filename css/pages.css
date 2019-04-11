@@ -129,3 +129,100 @@
         -ms-flex:1;
             flex:1;
 }
+
+/**************************/
+/*** ALL PROJECTS STYLE ***/
+/**************************/
+
+.all-projects {
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.all-projects h2 {
+    margin-bottom: 2rem;
+}
+
+.all-projects > p {
+    margin: 0 auto 3.25rem;
+    max-width: 53.15rem;
+    font-size: 1.15rem;
+}
+
+.all-projects .projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 2.25rem;
+}
+
+.all-projects .project{
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+    max-width: 360px;
+    background-color: white;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    -webkit-transition: background-color 400ms;
+    transition: background-color 400ms;
+}
+
+.all-projects .project:hover{
+    -webkit-box-shadow: 0 0 .95rem rgba(23,23,23,.1);
+            box-shadow: 0 0 .95rem rgba(23,23,23,.1);
+}
+
+.all-projects .text {
+    padding: 1.1rem 1.35rem;
+}
+
+.all-projects .project h3 {
+    color: rgb(65, 162, 50);
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-bottom: .25rem;
+}
+
+.all-projects .project span {
+    color: #171717;
+    font-size: .9rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.all-projects .project p {
+    color: #787878;
+}
+
+@media screen and (max-width:840px) {
+    
+    .all-projects .projects {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+
+    }
+}
+
+@media screen and (min-width:841px) {
+
+    .all-projects .project:nth-child(2) {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
