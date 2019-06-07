@@ -1,10 +1,10 @@
 <?php
 // Check for empty fields
-if(empty($_POST['firstname'])   ||
-   empty($_POST['name'])        ||
+if(empty($_POST['name'])   ||
+//    empty($_POST['name'])        ||
    empty($_POST['email'])       ||
    empty($_POST['phone'])       ||
-   empty($_POST['subject'])     ||
+//    empty($_POST['subject'])     ||
    empty($_POST['message'])     ||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
@@ -14,11 +14,11 @@ if(empty($_POST['firstname'])   ||
        echo "1";
    }
    
-$firstname = strip_tags(htmlspecialchars($_POST['firstname']));
+// $firstname = strip_tags(htmlspecialchars($_POST['firstname']));
 $name = strip_tags(htmlspecialchars($_POST['name']));
 $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
-$subject = strip_tags(htmlspecialchars($_POST['subject']));
+// $subject = strip_tags(htmlspecialchars($_POST['subject']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 echo "2";
