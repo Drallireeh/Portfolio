@@ -18,7 +18,7 @@
     letter-spacing: .1rem;
 }
 .competences-content tr:not(.first) th {
-    color: #01D758;
+    color: rgb(65, 162, 50);
     font-weight: bold;
 }
 .competences-content th,

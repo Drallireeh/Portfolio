@@ -252,7 +252,7 @@ header .text .tmp-btn:first-child {
 }
 
 .last-projects .project h3 {
-    color: #01D758;
+    color: rgb(65, 162, 50);
     font-size: 1.15rem;
     text-transform: uppercase;
     font-family: Montserrat;
