@@ -45,7 +45,7 @@
 
             <h2 class="tmp-title2">Envoyez moi un message</h2>
 
-            <form method="post" action="php/contact.php">
+            <form method="post" id="contactForm" action="php/contact.php">
 
                 <fieldset>
                     <input name="firstname" type="text" placeholder="Prénom">
@@ -57,7 +57,7 @@
                 <input name="subject" type="text" placeholder="Sujet du message">
                 <textarea name="message" rows="10" placeholder="Message"></textarea>
 
-                <input type="submit" class="tmp-btn" value="Envoyer">
+                <input id="sendEmail" type="submit" class="tmp-btn" value="Envoyer">
 
             </form>
 
