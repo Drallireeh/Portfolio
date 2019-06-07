@@ -48,14 +48,14 @@
             <form method="post" id="contactForm" action="php/contact.php">
 
                 <fieldset>
-                    <input name="firstname" type="text" placeholder="Prénom">
-                    <input name="name" type="text" placeholder="Nom">
-                    <input name="email" type="email" placeholder="Adresse email">
-                    <input name="phone" type="phone" placeholder="Téléphone">
+                    <input id="firstname" name="firstname" type="text" placeholder="Prénom">
+                    <input id="name" name="name" type="text" placeholder="Nom">
+                    <input id="email" name="email" type="email" placeholder="Adresse email">
+                    <input id="phone" name="phone" type="phone" placeholder="Téléphone">
                 </fieldset>
 
-                <input name="subject" type="text" placeholder="Sujet du message">
-                <textarea name="message" rows="10" placeholder="Message"></textarea>
+                <input id="subject" name="subject" type="text" placeholder="Sujet du message">
+                <textarea id="message" name="message" rows="10" placeholder="Message"></textarea>
 
                 <input id="sendEmail" type="submit" class="tmp-btn" value="Envoyer">
 
