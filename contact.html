@@ -45,17 +45,17 @@
 
             <h2 class="tmp-title2">Envoyez moi un message</h2>
 
-            <form action="">
+            <form method="post" name="sentMessage" action="./php/contact.php">
 
                 <fieldset>
-                    <input type="text" placeholder="Prénom">
-                    <input type="text" placeholder="Nom">
-                    <input type="email" placeholder="Adresse email">
-                    <input type="phone" placeholder="Téléphone">
+                    <input name="firstname" type="text" placeholder="Prénom">
+                    <input name="name" type="text" placeholder="Nom">
+                    <input name="email" type="email" placeholder="Adresse email">
+                    <input name="phone" type="phone" placeholder="Téléphone">
                 </fieldset>
 
-                <input type="text" placeholder="Sujet du message">
-                <textarea rows="10" placeholder="Message"></textarea>
+                <input name="subject" type="text" placeholder="Sujet du message">
+                <textarea name="message" rows="10" placeholder="Message"></textarea>
 
                 <input type="submit" class="tmp-btn" value="Envoyer">
 
