@@ -20,10 +20,10 @@ $subject = strip_tags(htmlspecialchars($_POST['subject']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 $to = 'kenny.herillard@hotmail.fr'; // My mail
-$email_subject = "$subject";
-$email_body = "Message:\n$message \n Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\n";
+$email_subject = "test ";
+$email_body = "Message:\n test \n Here are the details:\n\nName:  test \n\nEmail:  test \n\nPhone:  test \n\n";
 $headers = "From: noreply@drallireeh.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
-return true;         
+return true;
 ?>
