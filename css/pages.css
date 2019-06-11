@@ -11,7 +11,7 @@
     text-align: left;
 }
 .competences-content .first th{
-    font-family: Montserrat;
+    font-family: 'Rubik';
     font-size: .9rem;
     color: #171717;
     text-transform: uppercase;
@@ -75,7 +75,7 @@
     border: 0;
     padding: 1rem;
     margin-bottom: 1rem;
-    font-family: Nunito;
+    font-family: 'Encode Sans Expanded';
     font-size: 1rem;
     color: #787878;
 }
@@ -188,7 +188,7 @@
     color: rgb(65, 162, 50);
     font-size: 1.15rem;
     text-transform: uppercase;
-    font-family: Montserrat;
+    font-family: 'Rubik';
     font-weight: bold;
     margin-bottom: .25rem;
 }
@@ -196,7 +196,7 @@
 .all-projects .project span {
     color: #171717;
     font-size: .9rem;
-    font-family: Montserrat;
+    font-family: 'Rubik';
     font-weight: bold;
     display: inline-block;
     margin-bottom: .5rem;
