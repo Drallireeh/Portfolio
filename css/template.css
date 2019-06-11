@@ -48,42 +48,6 @@ table {
 	border-spacing: 0;
 }
 
-/*************/
-/*** FONTS ***/
-/*************/
-
-@font-face {
-    font-family: Montserrat;
-    src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2'),
-         url('../fonts/montserrat-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Montserrat;
-    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
-         url('../fonts/montserrat-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Nunito;
-    src: url('../fonts/nunitosans-regular-webfont.woff2') format('woff2'),
-         url('../fonts/nunitosans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Nunito;
-    src: url('../fonts/nunitosans-bold-webfont.woff2') format('woff2'),
-         url('../fonts/nunitosans-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
 /***********************/
 /*** TEMPLATE STYLES ***/
 /***********************/
@@ -99,7 +63,7 @@ html, body{
 }
 
 body {
-    font-family: Nunito;
+    font-family: 'Encode Sans Expanded';
     color: #787878;
     background-color: #f5f5f5;
     padding-top: 81px;
@@ -114,14 +78,14 @@ body {
 /* Titles */
 
 .tmp-title1 {
-    font-family: Montserrat;
+    font-family: 'Rubik';
     font-weight: bold;
     font-size: 2.4rem; /* 38.4px */
     color: #171717;
 }
 
 .tmp-title2 {
-    font-family: Montserrat;
+    font-family: 'Rubik';
     font-weight: bold;
     font-size: 1.75rem; /* 28px */
     color: #171717;
@@ -140,7 +104,7 @@ a:hover {
     display: inline-block;
     background-color: #01D758;
     padding: .9rem 1.6rem; /* 14.4px 25.6px */
-    font-family: Montserrat;
+    font-family: 'Rubik';
     font-size: 0.85rem; /* 13.6px */
     color: white;
     text-transform: uppercase;
@@ -159,7 +123,7 @@ a:hover {
     display: inline-block;
     background-color: #01D758;
     padding: .7rem 1.15rem;
-    font-family: Montserrat;
+    font-family: 'Rubik';
     font-size: 0.75rem;
     color: white;
     text-transform: uppercase;
@@ -201,7 +165,7 @@ strong {
 }
 
 .tmp-menu .home-link {
-    font-family: Montserrat;
+    font-family: 'Rubik';
     font-weight: bold;
     font-size: 1.5rem; /* 24px */
     margin-top:.2rem;
@@ -212,7 +176,7 @@ strong {
 }
 
 .tmp-menu .site-links a {
-    font-family: Montserrat;
+    font-family: 'Rubik';
     font-size: 0.9rem; /* 14.4px */
     text-transform: uppercase;
     margin-left: 1.5rem;
