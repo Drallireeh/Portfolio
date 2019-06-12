@@ -2,6 +2,8 @@
 /*** RESET ***/
 /*************/
 
+/* color: rgb(65, 162, 50); h3 */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -97,12 +99,12 @@ a {
     color: #171717;
 }
 a:hover {
-    color: #01D758;
+    color: rgb(65, 162, 50);
 }
 
 .tmp-btn {
     display: inline-block;
-    background-color: #01D758;
+    background-color: rgb(65, 162, 50);
     padding: .9rem 1.6rem; /* 14.4px 25.6px */
     font-family: 'Rubik';
     font-size: 0.85rem; /* 13.6px */
@@ -114,14 +116,14 @@ a:hover {
 }
 
 .tmp-btn:hover{
-    background-color: #87e990;
+    background-color: #01D758;
     box-shadow: 0 0 .95rem rgba(23,23,23,.1);
     color: white;
 }
 
 .tmp-btn-small {
     display: inline-block;
-    background-color: #01D758;
+    background-color: rgb(65, 162, 50);
     padding: .7rem 1.15rem;
     font-family: 'Rubik';
     font-size: 0.75rem;
@@ -133,7 +135,7 @@ a:hover {
 }
 
 .tmp-btn-small:hover{
-    background-color: #87e990;
+    background-color: #01D758;
     box-shadow: 0 0 .8rem rgba(23,23,23,.1);
     color: white;
 }
@@ -184,11 +186,12 @@ strong {
 }
 
 .tmp-menu .site-links a:hover {
-    color: #87e990;
+    color: #01D758;
 }
 
 .tmp-menu .site-links a.active {
-    color: #01D758;
+    /* color: #01D758; */
+    color: rgb(65, 162, 50);
 }
 
 .tmp-menu .burger {
@@ -303,7 +306,7 @@ strong {
 }
 
 .tmp-footer a:hover{
-    color: #01D758;
+    color: rgb(65, 162, 50);
 }
 
 .tmp-footer .contact a {
