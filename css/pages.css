@@ -206,6 +206,10 @@
     color: #787878;
 }
 
+#profil {
+    margin-bottom: 1.3rem;
+}
+
 @media screen and (max-width:840px) {
     
     .all-projects .projects {
